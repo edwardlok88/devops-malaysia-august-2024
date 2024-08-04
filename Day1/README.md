@@ -14,20 +14,39 @@ We need to configure elastic search
 ```
 sudo vim /etc/elasticsearch/elasticsearch.yml
 ```
-The elasticsearch.yml shall be edited as shown below
+After editing the file /etc/elasticsearch/elasticsearch.yml content should appear as shown below
 <pre>
-# ---------------------------------- Network -----------------------------------
-#
-# Set the bind address to a specific IP (IPv4 or IPv6):
-#
-network.host: localhost
+bootstrap.memory_lock: false
+cluster.name: tektutor-elasticsearch 
+path.data: /var/lib/elasticsearch
+path.logs: /var/log/elasticsearch
+node.name: node-1
+
+http.port: 9200
+node.data: true
+node.ingest: true
+node.master: true
+node.max_local_storage_nodes: 1
+cluster.initial_master_nodes: node-1
+transport.tcp.port: 9300
+xpack.license.self_generated.type: basic
+xpack.security.enabled: false
+network.host: ["0.0.0.0", 127.0.0.1", "[::1]"]
+network.bind_host: 0.0.0.0
+network.publish_host: 0.0.0.0
+http.host: 0.0.0.0
+http.cors.enabled : true
+http.cors.allow-origin : "*"
+http.cors.allow-methods : OPTIONS, HEAD, GET, POST, PUT, DELETE
+http.cors.allow-headers : X-Requested-With,X-Auth-Token,Content-Type, Content-Length
 </pre>
 
 We need to start the elastic search
 ```
 sudo systemctl enable elasticsearch
 sudo systemctl start elasticsearch
-sudo ufw allow from 198.51.100.0 to any port 9200
+sudo systemctl status elasticsearch
+sudo ufw allow from 198.168.1.0 to any port 9200
 sudo ufw enable
 sudo ufw status
 
@@ -35,33 +54,26 @@ curl -X GET 'http://localhost:9200/_nodes?pretty'
 ```
 
 Expected output
-<pre>
-Output
+![image](https://github.com/user-attachments/assets/389e4523-8d06-4b0d-941f-1e71ea678d52)
+![image](https://github.com/user-attachments/assets/438dddb9-0126-44aa-8d6b-d085e3708f87)
+![image](https://github.com/user-attachments/assets/9c7a6a79-ea59-443b-b5af-9a762efb418e)
+![image](https://github.com/user-attachments/assets/e5c42d4e-f4ad-4868-94ec-552b24bbf6c9)
+![image](https://github.com/user-attachments/assets/a36afe1a-c8c5-48bb-bd46-e0446245228f)
+![image](https://github.com/user-attachments/assets/9c8e154d-f3a1-4c70-ad0c-e4bf480f9c0e)
+
+#### Let's test using elasticsearch
+```
+curl -X PUT -H "Content-Type: application/json"  'localhost:9200/tutorial/helloworld/1?pretty' -d '
 {
-  "name" : "elastic-22",
-  "cluster_name" : "elasticsearch",
-  "cluster_uuid" : "DEKKt_95QL6HLaqS9OkPdQ",
-  "version" : {
-    "number" : "7.17.1",
-    "build_flavor" : "default",
-    "build_type" : "deb",
-    "build_hash" : "e5acb99f822233d62d6444ce45a4543dc1c8059a",
-    "build_date" : "2022-02-23T22:20:54.153567231Z",
-    "build_snapshot" : false,
-    "lucene_version" : "8.11.1",
-    "minimum_wire_compatibility_version" : "6.8.0",
-    "minimum_index_compatibility_version" : "6.0.0-beta1"
-  },
-  "tagline" : "You Know, for Search"
-}  
-</pre>
-
-Using elasticsearch
-```
-curl -XPOST -H "Content-Type: application/json" 'http://localhost:9200/tutorial/helloworld/1' -d '{ "message": "Hello World!" }'
+  "message": "Hello Malaysia! - Elastic Search"
+}'
 ```
 
-Retrieving from elasticsearch
+#### Let's test retrieving from elasticsearch
 ```
 curl -X GET -H "Content-Type: application/json" 'http://localhost:9200/tutorial/helloworld/1'
 ```
+
+Expected output
+![image](https://github.com/user-attachments/assets/3d24a65b-44c1-4746-8928-b6fcee1f09c1)
+
