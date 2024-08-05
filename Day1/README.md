@@ -255,3 +255,16 @@ Let's install filebeat
 ```
 sudo apt-get install filebeat
 ```
+Expected output
+
+
+We need to configure the filebeat to feed the application logs to logstash as opposed to directly feeding the logs to elasticsearch. Hence, we need to configure the /etc/filebeat/filebeat.yml
+```
+sudo vim /etc/filebeat/filebeat.yml
+```
+Disable elasticsearch output by commenting as shown below 
+![image](https://github.com/user-attachments/assets/b4c52b5e-5e75-42a7-80a1-4a04c3dc4626)
+
+Enable the logstash output by uncommenting as shown below
+![image](https://github.com/user-attachments/assets/a04f66d6-d85b-43d8-8bcd-caa09bc39781)
+
