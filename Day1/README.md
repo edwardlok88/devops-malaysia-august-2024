@@ -18,6 +18,11 @@ From Azure portal Home Page, click on "Create a Resource"
 Select "Ubuntu Server 22.04 LTS"
 ![image](https://github.com/user-attachments/assets/e529ded2-631c-42e7-b15b-6c8ed3dab8d2)
 
+![image](https://github.com/user-attachments/assets/1d824127-d52c-459a-9b39-728a27fc42fa)
+![image](https://github.com/user-attachments/assets/3eaa1512-fc7a-43b3-a631-58a9315cfb4c)
+![image](https://github.com/user-attachments/assets/9186c9bb-4c6b-4ba4-a00d-fb77546b0281)
+![image](https://github.com/user-attachments/assets/74432e77-831c-4d7d-9798-8fed92a3ff5c)
+
 
 ## Lab - Installing Elastic Search Database in Azure Ubuntu 22.04 Virtual Machine
 ```
