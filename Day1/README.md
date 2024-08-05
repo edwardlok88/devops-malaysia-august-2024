@@ -12,6 +12,9 @@ Click "Create"
 ![image](https://github.com/user-attachments/assets/c01a9649-3c11-467e-b30c-00365074ef31)
 ![image](https://github.com/user-attachments/assets/fc9776d5-4286-48a1-a894-557dcc8fcbe0)
 
+From Azure portal Home Page, click on "Create a Resource"
+![image](https://github.com/user-attachments/assets/68cd224f-e472-4313-a7c8-87a4e50c6404)
+
 
 
 ## Lab - Installing Elastic Search Database in Azure Ubuntu 22.04 Virtual Machine
