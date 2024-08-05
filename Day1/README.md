@@ -140,6 +140,7 @@ We need to start the elastic search
 sudo systemctl enable elasticsearch
 sudo systemctl start elasticsearch
 sudo systemctl status elasticsearch
+sudo apt install -y net-tools
 sudo ufw allow from 198.168.1.0 to any port 9200
 sudo ufw enable
 sudo ufw status
@@ -148,6 +149,7 @@ curl -X GET 'http://localhost:9200/_nodes?pretty'
 ```
 
 Expected output
+![image](https://github.com/user-attachments/assets/57878ba3-a378-432c-b262-b7978577b21e)
 ![image](https://github.com/user-attachments/assets/389e4523-8d06-4b0d-941f-1e71ea678d52)
 ![image](https://github.com/user-attachments/assets/438dddb9-0126-44aa-8d6b-d085e3708f87)
 ![image](https://github.com/user-attachments/assets/9c7a6a79-ea59-443b-b5af-9a762efb418e)
