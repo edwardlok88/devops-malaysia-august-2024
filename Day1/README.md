@@ -23,6 +23,15 @@ Select "Ubuntu Server 22.04 LTS"
 ![image](https://github.com/user-attachments/assets/9186c9bb-4c6b-4ba4-a00d-fb77546b0281)
 ![image](https://github.com/user-attachments/assets/74432e77-831c-4d7d-9798-8fed92a3ff5c)
 
+Click "Review + Create"
+![image](https://github.com/user-attachments/assets/c3608f86-2cd1-44e1-a74f-5050f9dc5aca)
+Click "Create"
+![image](https://github.com/user-attachments/assets/1c0bd4f5-91a2-4a55-b51c-9f6f240384e7)
+Click "Download private key and create resource"
+![image](https://github.com/user-attachments/assets/a5d5f6e7-25c5-4734-9469-c5470692ecc2)
+![image](https://github.com/user-attachments/assets/46252b3d-fa32-4703-a8aa-316c63ad920b)
+![image](https://github.com/user-attachments/assets/c999754b-1714-4fe5-8b9e-4da4beac93fd)
+
 
 ## Lab - Installing Elastic Search Database in Azure Ubuntu 22.04 Virtual Machine
 ```
