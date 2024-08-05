@@ -1,5 +1,16 @@
 # Day 1
 
+## Lab - Let's create an Azure Ubuntu Virtual Machine
+
+#### Create a resource group in Azure portal
+![image](https://github.com/user-attachments/assets/054b4932-efb2-4da7-b491-2a5f765bb54e)
+Click "Create"
+![image](https://github.com/user-attachments/assets/2b1b4d07-cf8d-41b3-aadc-39a448217756)
+Click "Review + Create"
+![image](https://github.com/user-attachments/assets/ca738c4c-6abe-43f7-a6a2-92193d2384df)
+
+
+
 ## Lab - Installing Elastic Search Database in Azure Ubuntu 22.04 Virtual Machine
 ```
 curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elastic.gpg
