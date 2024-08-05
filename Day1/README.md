@@ -285,18 +285,26 @@ Expected output
 
 Load the index template to elasticsearch 
 ```
-sudo filebeat setup --index-management -E output.logstash.enabled=flase -E 'output.elasticsearch.hosts=["localhost:9200"] -E setup.kibana.host=localhost5601'
+sudo filebeat setup --index-management -E output.logstash.enabled=false -E output.elasticsearch.hosts=["localhost:9200"] -E setup.kibana.host=localhost:5601
 ```
+
+Expected output
+![image](https://github.com/user-attachments/assets/b6c6273c-15fe-4bae-92e5-ec6976b5deb0)
+
 
 Let's start the filebeat
 ```
 sudo systemctl enable filebeat
+sudo systemctl daemon-reload
 sudo systemctl start filebeat
 sudo systemctl status filebeat
 ```
 
 Let's test the filebeat
 ```
-curl -XGET 'https://localhost:9200/filebeat-*/_search?pretty'
+curl -XGET 'http://localhost:9200/filebeat-*/_search?pretty'
 ```
+
+Expected output
+![image](https://github.com/user-attachments/assets/76cc5c7b-e3ed-411b-8d9e-23f74057ba26)
 
