@@ -194,5 +194,10 @@ Expected output
 
 ## Lab - Installing logstash into Azure virtual machine
 ```
-
+sudo apt-get  install -y logstash
 ```
+Expected output
+![image](https://github.com/user-attachments/assets/116c1708-a465-4828-8f46-6eb5f6dedb9e)
+
+
+Let's edit the logstash configuration file /etc/logstash/conf.d/
