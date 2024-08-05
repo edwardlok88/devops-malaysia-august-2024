@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8fac0d75-dd4e-4f45-8eae-70523ffb3f12)# Day 1
+![image](https://github.com/user-attachments/assets/dd8ac8a4-84dc-43ea-9076-b1cd218ffc65)![image](https://github.com/user-attachments/assets/8fac0d75-dd4e-4f45-8eae-70523ffb3f12)# Day 1
 
 ## Elastic Search Overview
 <pre>
@@ -317,3 +317,9 @@ sudo systemctl start kibana
 
 Expected output
 ![image](https://github.com/user-attachments/assets/c70faab7-42ac-4b37-8587-d4d8aeb75f66)
+
+You can access the Kibana visual Dashboard webpage
+```
+http://localhost:5601
+```
+![image](https://github.com/user-attachments/assets/b265201e-d84b-4750-bb5f-23ac93098665)
