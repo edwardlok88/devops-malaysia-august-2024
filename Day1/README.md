@@ -200,20 +200,26 @@ Expected output
 ![image](https://github.com/user-attachments/assets/116c1708-a465-4828-8f46-6eb5f6dedb9e)
 
 
-You need to create a configuration file /etc/logstash/conf.d/beats-input.yml with the below content
+You need to create a configuration file /etc/logstash/conf.d/config.yml with the below content
 <pre>
 input {
   beats {
-    ports = 5044
+    port => 5044
+  }
+}
+
+output {
+  elasticsearch {
+    hosts => ["http://localhost:9200"]
+    index => "%{[@metadata][beat]}-%{[@metadata][version]}" 
   }
 }
 </pre>
 
 Your save file should look as shown below
 ```
-cat /etc/logstash/conf.d/beats-input.yml
+cat /etc/logstash/conf.d/config.yml
 ```
 
 Expected output  
-![image](https://github.com/user-attachments/assets/d57b7b7d-7a3e-4b0c-ad20-9dd0619aa87e)
 
