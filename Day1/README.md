@@ -174,6 +174,7 @@ Expected output
 ![image](https://github.com/user-attachments/assets/3d24a65b-44c1-4746-8928-b6fcee1f09c1)
 
 ### Let's try posting some message onto the remote elastic search server from our local machine
+You need to replace the azure virtual machine IP in the place of 20.244.89.122.
 ```
 curl -X PUT -H "Content-Type: application/json"  '20.244.89.122:9200/tektutor/message/1?pretty' -d '
 {
