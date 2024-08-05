@@ -224,3 +224,13 @@ cat /etc/logstash/conf.d/config.yml
 
 Expected output  
 
+
+Let's start the logstash sevice
+```
+sudo systemctl enable logstash
+sudo systemctl start logstash
+sudo systemctl status logstash
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/4ce438c6-c215-4401-9267-c871aa1ae6c7)
