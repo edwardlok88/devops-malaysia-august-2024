@@ -246,6 +246,7 @@ Expected output
   - Winlogbeat
   - Metricbeat
   - Auditbeat
+- you could explore about the various beat utilities here https://www.objectrocket.com/resource/what-are-elasticsearch-beats/
 </pre>
 
 Let's use Filebeat, which is good enough to take application logs from any folder and feed the same to logstash.
