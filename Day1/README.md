@@ -14,6 +14,9 @@ Click "Create"
 
 From Azure portal Home Page, click on "Create a Resource"
 ![image](https://github.com/user-attachments/assets/68cd224f-e472-4313-a7c8-87a4e50c6404)
+![image](https://github.com/user-attachments/assets/f908c282-8329-45a5-996a-ecceeb4d2487)
+Select "Ubuntu Server 22.04 LTS"
+![image](https://github.com/user-attachments/assets/e529ded2-631c-42e7-b15b-6c8ed3dab8d2)
 
 
 
