@@ -308,3 +308,12 @@ curl -XGET 'http://localhost:9200/filebeat-*/_search?pretty'
 Expected output
 ![image](https://github.com/user-attachments/assets/76cc5c7b-e3ed-411b-8d9e-23f74057ba26)
 
+Let's install Kibana visual dashboard
+```
+sudo apt-get install -y kibana
+sudo systemctl enable kibana
+sudo systemctl start kibana
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/c70faab7-42ac-4b37-8587-d4d8aeb75f66)
