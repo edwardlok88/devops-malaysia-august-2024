@@ -99,6 +99,11 @@ sudo apt update
 sudo apt install elasticsearch
 ```
 
+Expected output
+![image](https://github.com/user-attachments/assets/f2c2ad15-ad22-4007-9053-34644495c110)
+![image](https://github.com/user-attachments/assets/0a12478e-e9e2-4bec-9f7a-59752275e3e7)
+
+
 We need to configure elastic search
 ```
 sudo vim /etc/elasticsearch/elasticsearch.yml
