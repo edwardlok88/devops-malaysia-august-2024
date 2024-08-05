@@ -1,4 +1,4 @@
-# Day 1
+![image](https://github.com/user-attachments/assets/8fac0d75-dd4e-4f45-8eae-70523ffb3f12)# Day 1
 
 ## Elastic Search Overview
 <pre>
@@ -200,4 +200,20 @@ Expected output
 ![image](https://github.com/user-attachments/assets/116c1708-a465-4828-8f46-6eb5f6dedb9e)
 
 
-Let's edit the logstash configuration file /etc/logstash/conf.d/
+You need to create a configuration file /etc/logstash/conf.d/beats-input.yml with the below content
+<pre>
+input {
+  beats {
+    ports = 5044
+  }
+}
+</pre>
+
+Your save file should look as shown below
+```
+cat /etc/logstash/conf.d/beats-input.yml
+```
+
+Expected output  
+![image](https://github.com/user-attachments/assets/d57b7b7d-7a3e-4b0c-ad20-9dd0619aa87e)
+
