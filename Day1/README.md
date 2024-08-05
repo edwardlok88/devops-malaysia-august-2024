@@ -276,7 +276,27 @@ sudo filebeat modules list
 Out of the above modules, we are only interested in system module that helps in picking the application logs from a system folder and feed it to logstash
 ```
 sudo filebeat modules enable system
+sudo filebeat setup --pipelines --modules system
 ```
 
 Expected output
 ![image](https://github.com/user-attachments/assets/fcec8b4f-f764-4a65-ab29-1c2e56c9153a)
+![image](https://github.com/user-attachments/assets/d11aa743-02f1-4886-a58b-c6ea97e72cca)
+
+Load the index template to elasticsearch 
+```
+sudo filebeat setup --index-management -E output.logstash.enabled=flase -E 'output.elasticsearch.hosts=["localhost:9200"] -E setup.kibana.host=localhost5601'
+```
+
+Let's start the filebeat
+```
+sudo systemctl enable filebeat
+sudo systemctl start filebeat
+sudo systemctl status filebeat
+```
+
+Let's test the filebeat
+```
+curl -XGET 'https://localhost:9200/filebeat-*/_search?pretty'
+```
+
