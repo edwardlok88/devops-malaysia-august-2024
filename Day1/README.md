@@ -7,6 +7,7 @@
 - the values is generally stored as JSON(JavaScript Object Notation)
 - supports creating a cluster of elastic search databases, i.e there can more than one elastic search nodes(servers)
 - the more instances of elasticsearch databases instances/nodes we add more highly available(HA) it is
+- more detailed documentation can be found from their official web page https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html
 </pre>
 
 ## Logstash Overview
