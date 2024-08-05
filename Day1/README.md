@@ -139,7 +139,7 @@ sudo systemctl enable elasticsearch
 sudo systemctl start elasticsearch
 sudo systemctl status elasticsearch
 sudo apt install -y net-tools
-sudo ufw allow from 198.168.1.0 to any port 9200
+sudo ufw allow 9200
 sudo ufw enable
 sudo ufw status
 
@@ -191,3 +191,8 @@ curl -X GET -H "Content-Type: application/json"  '20.244.89.122:9200/tektutor/me
 
 Expected output
 ![image](https://github.com/user-attachments/assets/788f0973-10b5-495b-aad4-8de6842fb960)
+
+## Lab - Installing logstash into Azure virtual machine
+```
+
+```
