@@ -1,5 +1,42 @@
 # Day 1
 
+## Elastic Search Overview
+<pre>
+- Elastic Search is a distributed database
+- it stores the logs in key/value format
+- the values is generally stored as JSON(JavaScript Object Notation)
+- supports creating a cluster of elastic search databases, i.e there can more than one elastic search nodes(servers)
+- the more instances of elasticsearch databases instances/nodes we add more highly available(HA) it is
+</pre>
+
+## Logstash Overview
+<pre>
+- Logstash converts the application logs into a format that can be stored inside the Elasticsearch database  
+- an alternate to logstash is fluentd
+</pre>
+
+## Kibana Overview
+<pre>
+- Kibana is a visual dashboard for presenting the application logs as text or charts ( pie chart, bar charts, etc.,)
+- helps you access the application logs from a centralized web console
+</pre>
+
+### ELK Stack
+<pre>
+E - stands for ElasticSearch database
+L - stands for Logstash
+K - Kibana
+- is an opensource stack used for checking applications logs
+- always used as a combination
+- these 3 softwares are called in short as ELK stack
+- in case if would like to change the Logstash with Fluentd then the stack is referreds as EFK
+- letter F stands for Fluentd
+- alternate to ELK is
+  - EFK
+  - splunk
+</pre>
+
+
 ## Lab - Let's create an Azure Ubuntu Virtual Machine
 
 #### Create a resource group in Azure portal
