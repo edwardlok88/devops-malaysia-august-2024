@@ -32,6 +32,24 @@ Click "Download private key and create resource"
 ![image](https://github.com/user-attachments/assets/46252b3d-fa32-4703-a8aa-316c63ad920b)
 ![image](https://github.com/user-attachments/assets/c999754b-1714-4fe5-8b9e-4da4beac93fd)
 
+Click "Go to resource" and see the VM details
+![image](https://github.com/user-attachments/assets/3cc7f118-4166-401f-984e-5e0bc1b55b0e)
+
+
+Let's SSH into the Azure ubuntu virtual machine
+```
+cd ~/Downloads
+ls -l ubuntu-azure-vm_key.pem
+ssh -i  ubuntu-azure-vm_key.pem jegan@172.206.62.162
+```
+![image](https://github.com/user-attachments/assets/974a1350-1390-4ef1-abcd-67bbb2b39ccd)
+
+The private key must be protected by giving read permission only to current user, hence let's change the permission
+```
+chmod 400 ubuntu-azure-vm_key.pem
+ls -l ubuntu-azure-vm_key.pem
+```
+
 
 ## Lab - Installing Elastic Search Database in Azure Ubuntu 22.04 Virtual Machine
 ```
