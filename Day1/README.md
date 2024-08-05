@@ -234,3 +234,23 @@ sudo systemctl status logstash
 
 Expected output
 ![image](https://github.com/user-attachments/assets/4ce438c6-c215-4401-9267-c871aa1ae6c7)
+
+## Elasticsearch beats
+<pre>
+- there are many elastic search beat utilities that can feed logs to logstash
+- logstash takes these inputs, filters and converts the data fed by beat utilities to a format that is supported by Elasticsearch
+- the below are the possible beat utilities you could use
+  - Filebeat
+  - Packetbeat
+  - Heartbeat
+  - Winlogbeat
+  - Metricbeat
+  - Auditbeat
+</pre>
+
+Let's use Filebeat, which is good enough to take application logs from any folder and feed the same to logstash.
+
+Let's install filebeat
+```
+sudo apt-get install filebeat
+```
