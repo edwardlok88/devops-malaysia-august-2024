@@ -73,7 +73,6 @@ Click "Download private key and create resource"
 Click "Go to resource" and see the VM details
 ![image](https://github.com/user-attachments/assets/3cc7f118-4166-401f-984e-5e0bc1b55b0e)
 
-
 Let's SSH into the Azure ubuntu virtual machine
 ```
 cd ~/Downloads
@@ -88,8 +87,7 @@ chmod 400 ubuntu-azure-vm_key.pem
 ls -l ubuntu-azure-vm_key.pem
 ```
 
-
-## Lab - Installing Elastic Search Database in Azure Ubuntu 22.04 Virtual Machine
+## Lab - Installing Elastic Search database in Azure Ubuntu 22.04 Virtual Machine
 ```
 curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elastic.gpg
 
@@ -184,3 +182,12 @@ curl -X PUT -H "Content-Type: application/json"  '20.244.89.122:9200/tektutor/me
 
 Expected output
 ![image](https://github.com/user-attachments/assets/0d5197d6-d7f2-43a0-9b65-53fb75ab504f)
+
+
+### Let's try retrieving the messages we inserted into the elastic search from our local machine
+```
+curl -X GET -H "Content-Type: application/json"  '20.244.89.122:9200/tektutor/message/1?pretty'
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/788f0973-10b5-495b-aad4-8de6842fb960)
