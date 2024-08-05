@@ -198,6 +198,7 @@ sudo apt-get  install -y logstash
 ```
 Expected output
 ![image](https://github.com/user-attachments/assets/116c1708-a465-4828-8f46-6eb5f6dedb9e)
+![image](https://github.com/user-attachments/assets/5cc7cc89-dd1d-4786-9416-6747db639372)
 
 
 You need to create a configuration file /etc/logstash/conf.d/config.yml with the below content
