@@ -268,3 +268,15 @@ Disable elasticsearch output by commenting as shown below
 Enable the logstash output by uncommenting as shown below
 ![image](https://github.com/user-attachments/assets/a04f66d6-d85b-43d8-8bcd-caa09bc39781)
 
+Filebeat support many input sources
+```
+sudo filebeat modules list
+```
+
+Out of the above modules, we are only interested in system module that helps in picking the application logs from a system folder and feed it to logstash
+```
+sudo filebeat modules enable system
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/fcec8b4f-f764-4a65-ab29-1c2e56c9153a)
