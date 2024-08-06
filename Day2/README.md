@@ -40,3 +40,10 @@ tail -f /var/log/logstash/logstash-plain.log
 
 Expected output
 ![image](https://github.com/user-attachments/assets/a845e423-c72b-4f06-903c-23633822dce0)
+
+
+## Lab - Install Elasticsearch, Logstash and Kibana in Windows machine
+You need to download elasticsearch, logstash and kibana for windows into your windows OS from below url
+```
+http://www.elastic.co/downloads
+```
