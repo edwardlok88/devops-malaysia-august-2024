@@ -39,3 +39,4 @@ tail -f /var/log/logstash/logstash-plain.log
 ```
 
 Expected output
+![image](https://github.com/user-attachments/assets/a845e423-c72b-4f06-903c-23633822dce0)
