@@ -160,4 +160,6 @@ http://localhost:5601
 ![image](https://github.com/user-attachments/assets/7c7721f0-a17f-45b7-be63-abc9eed50859)
 ![image](https://github.com/user-attachments/assets/9590281a-9f93-4f03-8d6d-f3b9494bd494)
 ![image](https://github.com/user-attachments/assets/1623b38e-e94a-40c2-8a8f-83a27616e3b8)
+![image](https://github.com/user-attachments/assets/41b413f3-2238-4fb3-ba3e-ab80cec363ed)
+![image](https://github.com/user-attachments/assets/659517bd-6966-4481-adeb-d1bb4d005caf)
 
