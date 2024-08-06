@@ -109,9 +109,13 @@ Once you have successfully logged in, you are supposed to see this message
 
 
 #### Launching logstash in windows machine
+You need to create a config.conf file and place it under C:\elk-stack\logstash-8.14.3\conf folder.
+![image](https://github.com/user-attachments/assets/be6681fa-35cc-4be4-a04f-8d410e6d48f3)
+
 Navigate to the below folder in windows explorer, copy the path, launch a command prompt as Administrator and navigate to the below path
 ```
 cd C:\elk-stack\logstash-8.14.3\bin
 ```
 
-![image](https://github.com/user-attachments/assets/4df601cf-cd17-4720-bdcd-d6b23f74b15c)
+Expected ouptut
+![image](https://github.com/user-attachments/assets/64165454-048b-4123-b20e-f5ec783f4dad)
