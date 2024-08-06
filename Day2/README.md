@@ -83,7 +83,7 @@ Let's extract the kibana zip from elk-stack folder as shown below
 
 Launching elasticsearch nosql distributed database in windows as Administrator
 ```
-cd C:\elk-stack\elasticsearch-8.14.3-windows-x86_64\elasticsearch-8.14.3\bin/elasticsearch.bat
+cd C:\elk-stack\elasticsearch-8.14.3-windows-x86_64\elasticsearch-8.14.3\bin\elasticsearch.bat
 ```
 ![image](https://github.com/user-attachments/assets/a4e92277-27d8-47ed-93f6-613aa8bd2488)
 ![image](https://github.com/user-attachments/assets/ed36b4dd-dafa-40c7-8169-0e6b3af0a093)
@@ -95,3 +95,14 @@ https://locahost:9200
 </pre>
 
 ![image](https://github.com/user-attachments/assets/5f3f7567-04c4-4cba-9423-b11292345031)
+
+In case the user elastic was automatically created but you didn't note down the password, you may reset the password
+```
+cd C:\elk-stack\elasticsearch-8.14.3-windows-x86_64\elasticsearch-8.14.3\bin
+elasticsearch-reset-password -u elastic
+```
+Expected output ( save this password in a file for your future use )
+![image](https://github.com/user-attachments/assets/460a860d-e8ae-428c-a04b-a99fb8d64a42)
+
+Once you have successfully logged in, you are supposed to see this message
+![image](https://github.com/user-attachments/assets/14d4d035-c8f9-4a8f-8084-c2fc884680da)
