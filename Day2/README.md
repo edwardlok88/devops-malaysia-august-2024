@@ -81,7 +81,7 @@ You could install 7zip tool to unzip to avoid troubles.
 Let's extract the kibana zip from elk-stack folder as shown below
 ![image](https://github.com/user-attachments/assets/8695ab0c-c01a-46e3-a54a-aedc94b1ef8e)
 
-Launching elasticsearch nosql distributed database in windows as Administrator
+#### Launching elasticsearch nosql distributed database in windows as Administrator
 ```
 cd C:\elk-stack\elasticsearch-8.14.3-windows-x86_64\elasticsearch-8.14.3\bin\elasticsearch.bat
 ```
@@ -106,3 +106,12 @@ Expected output ( save this password in a file for your future use )
 
 Once you have successfully logged in, you are supposed to see this message
 ![image](https://github.com/user-attachments/assets/14d4d035-c8f9-4a8f-8084-c2fc884680da)
+
+
+#### Launching logstash in windows machine
+Navigate to the below folder in windows explorer, copy the path, launch a command prompt as Administrator and navigate to the below path
+```
+cd C:\elk-stack\logstash-8.14.3\bin
+```
+
+![image](https://github.com/user-attachments/assets/4df601cf-cd17-4720-bdcd-d6b23f74b15c)
