@@ -47,3 +47,14 @@ You need to download elasticsearch, logstash and kibana for windows into your wi
 ```
 http://www.elastic.co/downloads
 ```
+
+Download easticsearch for windows
+![image](https://github.com/user-attachments/assets/aeb46bea-7248-48d8-a26e-3093f4f2a5bf)
+
+Download logstash for windows
+![image](https://github.com/user-attachments/assets/ee38a86a-ba58-4349-939b-85f818549550)
+
+
+Download kibana for windows
+![image](https://github.com/user-attachments/assets/52a6275e-7a60-4abf-a21e-258c1d41493c)
+![image](https://github.com/user-attachments/assets/b5aed8d3-a1e5-4e84-94b9-0a724533c342)
