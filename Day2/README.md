@@ -119,3 +119,4 @@ cd C:\elk-stack\logstash-8.14.3\bin
 
 Expected ouptut
 ![image](https://github.com/user-attachments/assets/64165454-048b-4123-b20e-f5ec783f4dad)
+![image](https://github.com/user-attachments/assets/3abb2262-54ba-45cd-ac70-20a3058b8c4d)
