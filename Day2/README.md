@@ -146,3 +146,18 @@ We need to create a regular non-admin user in kibana.yml as shown
 If everything is done correctly, you are expected to see the below 
 ![image](https://github.com/user-attachments/assets/59662fcc-db7c-4175-8919-7cf9e038eea5)
 ![image](https://github.com/user-attachments/assets/a5c7631b-9548-40fe-bbaa-6fe1b3b64ee2)
+![image](https://github.com/user-attachments/assets/1465a883-71b2-4bd4-87db-3cad4dc4a52f)
+![image](https://github.com/user-attachments/assets/666d5125-ee0d-42a5-8881-299ab397dbbe)
+![image](https://github.com/user-attachments/assets/8cb93487-d4dc-4299-86dc-94b265539c9b)
+![image](https://github.com/user-attachments/assets/a1dbdcf5-6f5c-431c-ba0c-f0e40b186364)
+![image](https://github.com/user-attachments/assets/46239253-bb7d-41ae-88d0-2ad44e423602)
+
+You may access the Kibana dashboard on your windows machine
+```
+http://localhost:5601
+```
+![image](https://github.com/user-attachments/assets/32583518-11ec-43e8-8bb3-01926bf7d19b)
+![image](https://github.com/user-attachments/assets/7c7721f0-a17f-45b7-be63-abc9eed50859)
+![image](https://github.com/user-attachments/assets/9590281a-9f93-4f03-8d6d-f3b9494bd494)
+![image](https://github.com/user-attachments/assets/1623b38e-e94a-40c2-8a8f-83a27616e3b8)
+
