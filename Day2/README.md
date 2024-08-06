@@ -5,6 +5,7 @@
 ```
 sudo -i
 systemctl stop logstash
+systemctl disable logstash
 cd /usr/share/logstash/bin
 ./logstash -f /etc/logstash/conf.d/config.conf
 ```
