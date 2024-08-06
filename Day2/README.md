@@ -120,3 +120,18 @@ cd C:\elk-stack\logstash-8.14.3\bin
 Expected ouptut
 ![image](https://github.com/user-attachments/assets/64165454-048b-4123-b20e-f5ec783f4dad)
 ![image](https://github.com/user-attachments/assets/3abb2262-54ba-45cd-ac70-20a3058b8c4d)
+
+#### Launching kibana dashboard in windows machine
+You need to configure the kibana.conf under C:\elk-stack\kibana-8.14.3-windows-x86_64\kibana-8.14.3\config as shown below
+![image](https://github.com/user-attachments/assets/2a4ae3bf-a1cc-4c2c-97fb-a3063b94c965)
+![image](https://github.com/user-attachments/assets/6acec5b1-9397-4386-8db7-0b6f9677000b)
+
+Now you may launch kibana as shown belo
+```
+kibana.bat
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/4ff49275-2ae7-41f6-994c-c99c5e5ade47)
+
+We need to create a regular non-admin user to 
