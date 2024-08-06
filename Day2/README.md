@@ -58,3 +58,22 @@ Download logstash for windows
 Download kibana for windows
 ![image](https://github.com/user-attachments/assets/52a6275e-7a60-4abf-a21e-258c1d41493c)
 ![image](https://github.com/user-attachments/assets/b5aed8d3-a1e5-4e84-94b9-0a724533c342)
+
+Let's copy the download elasticsearch, logstash and kibana zip files from Downloads folder to C:\elk-stack
+![image](https://github.com/user-attachments/assets/d78f5b7e-1beb-4e94-a11f-c20f3b7fd5be)
+![image](https://github.com/user-attachments/assets/3c3f55e6-efbd-4130-b8f6-66749b6b9825)
+
+Let's extract the elasticsearch zip from elk-stack folder as shown below
+![image](https://github.com/user-attachments/assets/ab921a42-5c53-48d2-ad30-82e29ed49ef7)
+![image](https://github.com/user-attachments/assets/6cc39585-9fd7-4085-a952-521052039148)
+
+Let's extract the logstash zip from elk-stack folder as shown below
+To troubleshoot long path error, you need to edit the registry in windows
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem->LongPathEnabled to 1 and restart the machine.
+
+![image](https://github.com/user-attachments/assets/2cd92e2a-6dc5-4cca-bb0f-1a393b3b725b)
+![image](https://github.com/user-attachments/assets/dfb159b0-1779-4e1e-ba4b-93c1b79694ee)
+![image](https://github.com/user-attachments/assets/5bee4bd2-380c-466c-80f8-c56187302940)
+
+Let's extract the kibana zip from elk-stack folder as shown below
+
