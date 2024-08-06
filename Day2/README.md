@@ -142,3 +142,7 @@ elasticsearch-reset-password.bat -u kibana_system
 
 We need to create a regular non-admin user in kibana.yml as shown
 ![image](https://github.com/user-attachments/assets/e67ec60c-0cdb-472c-92ae-081be6b290eb)
+
+If everything is done correctly, you are expected to see the below 
+![image](https://github.com/user-attachments/assets/59662fcc-db7c-4175-8919-7cf9e038eea5)
+![image](https://github.com/user-attachments/assets/a5c7631b-9548-40fe-bbaa-6fe1b3b64ee2)
