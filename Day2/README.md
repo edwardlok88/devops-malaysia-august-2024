@@ -1,4 +1,4 @@
-# Day 2
+![image](https://github.com/user-attachments/assets/b697c7d4-1583-48b5-aefd-5754661c7039)# Day 2
 
 ## Lab - Cloning this training repository (one time activity)
 ```
@@ -134,4 +134,11 @@ kibana.bat
 Expected output
 ![image](https://github.com/user-attachments/assets/4ff49275-2ae7-41f6-994c-c99c5e5ade47)
 
-We need to create a regular non-admin user to 
+We need to reset the kibana_system user password in elasticsearch
+```
+elasticsearch-reset-password.bat -u kibana_system
+```
+![image](https://github.com/user-attachments/assets/7e22060b-377d-4111-adb5-bc486813bfe1)
+
+We need to create a regular non-admin user in kibana.yml as shown
+![image](https://github.com/user-attachments/assets/e67ec60c-0cdb-472c-92ae-081be6b290eb)
