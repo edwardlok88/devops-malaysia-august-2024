@@ -81,3 +81,9 @@ You could install 7zip tool to unzip to avoid troubles.
 Let's extract the kibana zip from elk-stack folder as shown below
 ![image](https://github.com/user-attachments/assets/8695ab0c-c01a-46e3-a54a-aedc94b1ef8e)
 
+Launching elasticsearch nosql distributed database in windows as Administrator
+```
+cd C:\elk-stack\elasticsearch-8.14.3-windows-x86_64\elasticsearch-8.14.3\bin/elasticsearch.bat
+```
+![image](https://github.com/user-attachments/assets/a4e92277-27d8-47ed-93f6-613aa8bd2488)
+![image](https://github.com/user-attachments/assets/ed36b4dd-dafa-40c7-8169-0e6b3af0a093)
