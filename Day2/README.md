@@ -72,6 +72,8 @@ To troubleshoot long path error, you need to edit the registry in windows
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem->LongPathEnabled to 1 and restart the machine.
 ![image](https://github.com/user-attachments/assets/beefc015-ad06-4d06-807c-060fb1846074)
 
+You could install 7zip tool to unzip to avoid troubles.
+
 ![image](https://github.com/user-attachments/assets/2cd92e2a-6dc5-4cca-bb0f-1a393b3b725b)
 ![image](https://github.com/user-attachments/assets/dfb159b0-1779-4e1e-ba4b-93c1b79694ee)
 ![image](https://github.com/user-attachments/assets/5bee4bd2-380c-466c-80f8-c56187302940)
