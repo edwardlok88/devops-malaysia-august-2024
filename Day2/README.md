@@ -77,4 +77,5 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem->LongPathEnabled 
 ![image](https://github.com/user-attachments/assets/5bee4bd2-380c-466c-80f8-c56187302940)
 
 Let's extract the kibana zip from elk-stack folder as shown below
+![image](https://github.com/user-attachments/assets/8695ab0c-c01a-46e3-a54a-aedc94b1ef8e)
 
