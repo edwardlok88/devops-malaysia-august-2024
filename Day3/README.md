@@ -140,5 +140,14 @@ java -jar ./jenkins.war
 ```
 
 Expected output
-![image](https://github.com/user-attachments/assets/fca9f8c7-2bf8-47b6-b0bb-b0d952528d60)
-![image](https://github.com/user-attachments/assets/0e352eb0-89e5-420f-94ee-58c7b2a63830)
+![image](https://github.com/user-attachments/assets/0485aa4f-37b1-422f-a860-774b98ede6d5)
+![image](https://github.com/user-attachments/assets/fa082004-14b6-44e2-b9b7-6a533a90d67d)
+![image](https://github.com/user-attachments/assets/6d5bec55-cedd-4b30-815c-4c5bd17d13d9)
+
+From your web browser, you may access Jenkins dashboard as shown below
+```
+http://localhost:8080
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/0901a956-f890-4aa4-a71e-8bcf80290c32)
