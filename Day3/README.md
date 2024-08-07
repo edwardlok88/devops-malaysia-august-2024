@@ -20,6 +20,7 @@ Launch Kibana and connect with Elasticsearch cluster
 ![image](https://github.com/user-attachments/assets/fd0af8f8-7558-4499-a526-73b4c0805531)
 
 ![image](https://github.com/user-attachments/assets/24e6484a-db61-4392-b1d8-33eed4aa7e39)
+
 ![image](https://github.com/user-attachments/assets/76530417-b07c-47ca-9531-dccb7d16a8c7)
 ![image](https://github.com/user-attachments/assets/f7385f6c-df86-4a77-b260-5d11126763b0)
 ![image](https://github.com/user-attachments/assets/92c0d751-fe29-4b33-be60-35b0cdd5e6ba)
