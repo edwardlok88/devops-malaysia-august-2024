@@ -39,4 +39,18 @@ Deploying Proemetheus as a Docker container
 ```
 docker run -d --name prometheus --hostname prometheus bitnami/prometheus:latest
 docker ps
+docker logs prometheus
 ```
+
+Find the IP Address of your prometheus container
+```
+docker inspect prometheus | grep IPA
+```
+
+You can access the prometheus dashboard, in the below url you need to use the IP address of your prometheus container
+<pre>
+http://172.17.0.2:9090  
+</pre>
+
+Expected output
+![image](https://github.com/user-attachments/assets/df80f7cc-43ed-4024-b21c-c61e9a3a32bb)
