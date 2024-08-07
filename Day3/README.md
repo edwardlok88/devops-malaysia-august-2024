@@ -29,4 +29,5 @@ Launch Kibana and connect with Elasticsearch cluster
 ![image](https://github.com/user-attachments/assets/19396b21-0c58-4df8-9499-07f19f78aae7)
 
 #### Configure logstash and launch from windows command prompt as Administrator
-![image](https://github.com/user-attachments/assets/3e399dc8-1e7d-435a-8565-409a85bddd86)
+
+
