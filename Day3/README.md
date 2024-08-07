@@ -33,3 +33,4 @@
 
 ![image](https://github.com/user-attachments/assets/4323905a-ff1b-4f17-a453-fe6b59bfeecf)
 
+## Lab - Collecting performance metrics using Prometheus and visualizing metrics using Grafana Dashboard
