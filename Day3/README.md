@@ -215,3 +215,15 @@ My laptop is connected to Wireless network and its IP address is "150.130.190.12
 You need to modify the prometheus.yml and jenkins as a target to collect metrics as shown below
 ![image](https://github.com/user-attachments/assets/0df50a01-561e-413e-82b7-c93ce4fdf900)
 In the above, you need to replace "150.130.190.122" with your laptop IP address.
+
+Let's copy the updated prometheus.yml from local machine to the prometheus container as shown below
+```
+docker cp prometheus.yml prometheus:/opt/bitnami/prometheus/conf/prometheus.yml
+```
+
+We need to restart prometheus container to apply the config changes
+```
+docker restart prometheus
+docker ps
+```
+![image](https://github.com/user-attachments/assets/98481e44-1216-4532-a4d1-ed25b822ceb5)
