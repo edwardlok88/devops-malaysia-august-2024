@@ -37,6 +37,6 @@
 
 Deploying Proemetheus as a Docker container
 ```
-docker run -d --name prometheus --hostname bitnami/prometheus:latest
+docker run -d --name prometheus --hostname prometheus bitnami/prometheus:latest
 docker ps
 ```
