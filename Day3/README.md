@@ -106,4 +106,4 @@ Integrating Prometheus with Grafana
 Add Datasource
 ![image](https://github.com/user-attachments/assets/c098b4d8-638a-4dcb-90fa-d62964de4be0)
 Select Prometheus
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d168b20b-d764-4e76-8708-219f81666ee6)
