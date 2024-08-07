@@ -118,3 +118,5 @@ Click on New to see the import option
 ![image](https://github.com/user-attachments/assets/12ac50d6-0ad5-4822-b13d-136b3c0d3af0)
 Click on import
 ![image](https://github.com/user-attachments/assets/b33a565a-bdf3-4a76-8bd6-d53c6c757933)
+Type "9964"
+![image](https://github.com/user-attachments/assets/983cd2e2-22b2-4af9-8947-6f404ef28f36)
