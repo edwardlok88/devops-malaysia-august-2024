@@ -46,6 +46,9 @@ Find the IP Address of your prometheus container
 ```
 docker inspect prometheus | grep IPA
 ```
+Expected output
+![image](https://github.com/user-attachments/assets/835682a7-e2a0-463d-bd83-81176bae4e42)
+
 
 You can access the prometheus dashboard, in the below url you need to use the IP address of your prometheus container
 <pre>
