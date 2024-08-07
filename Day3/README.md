@@ -107,3 +107,7 @@ Add Datasource
 ![image](https://github.com/user-attachments/assets/c098b4d8-638a-4dcb-90fa-d62964de4be0)
 Select Prometheus
 ![image](https://github.com/user-attachments/assets/d168b20b-d764-4e76-8708-219f81666ee6)
+![image](https://github.com/user-attachments/assets/198bb162-76d6-401f-8e8a-5e9c9f2ccff6)
+![image](https://github.com/user-attachments/assets/bb96cea9-9d55-4add-a3eb-0cf2eef651b7)
+Click Save & Test
+![image](https://github.com/user-attachments/assets/1f2468da-998d-491e-a726-89c6908a56df)
