@@ -237,3 +237,7 @@ docker restart prometheus
 docker ps
 ```
 ![image](https://github.com/user-attachments/assets/51ef45ff-0784-4b0d-a062-18282d773077)
+
+
+If everthing went well, in your grafana you should be able to see the Grafana dashboard that plots the jenkins metrics
+![image](https://github.com/user-attachments/assets/67f246c6-dbee-46dd-84ae-3638f0fe34c4)
