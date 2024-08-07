@@ -132,3 +132,13 @@ Let's download jenkins.war from jenkins.io/download url
 We need to download Generic Java Package on the left side (LTS)
 ![image](https://github.com/user-attachments/assets/fc841344-e502-44e0-abf0-2bce72e3da37)
 ![image](https://github.com/user-attachments/assets/c4efdcc8-d986-4930-9f21-853c75c51638)
+
+You can launch jenkins from terminal as shown below
+```
+cd ~/Downloads
+java -jar ./jenkins.war
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/fca9f8c7-2bf8-47b6-b0bb-b0d952528d60)
+![image](https://github.com/user-attachments/assets/0e352eb0-89e5-420f-94ee-58c7b2a63830)
