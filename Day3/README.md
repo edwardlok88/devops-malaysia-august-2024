@@ -8,6 +8,8 @@ Launch Elastic search
 ![image](https://github.com/user-attachments/assets/84becbdc-aa2a-42a3-9bd3-217341cae8e4)
 
 Launch Kibana and connect with Elasticsearch cluster
+![image](https://github.com/user-attachments/assets/1dcaef2a-0408-47a3-9454-918c337245c3)
+
 ![image](https://github.com/user-attachments/assets/4b53c85c-fa4c-4c17-a44e-dea25a596660)
 ![image](https://github.com/user-attachments/assets/f10f85d9-ca23-416d-a0d2-050ae62adb24)
 ![image](https://github.com/user-attachments/assets/55e772d1-f8b4-46ed-a933-766894ff0190)
