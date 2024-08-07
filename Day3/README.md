@@ -161,4 +161,7 @@ Click continue
 ![image](https://github.com/user-attachments/assets/ff3bd6d5-9e31-40e2-8e1e-eec019a7cc60)
 Click "Install suggested plugins"
 ![image](https://github.com/user-attachments/assets/24a7b089-580e-4aad-9120-0500937a9d5a)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/c7fb692a-9d2f-4823-8f79-30cc16b1799d)
+![image](https://github.com/user-attachments/assets/0b41baa3-1c09-43ed-a427-15fe8b7d126a)
+![image](https://github.com/user-attachments/assets/c8304147-7274-477b-8f22-04290f51a45c)
+![image](https://github.com/user-attachments/assets/5205ff0c-dd18-4f7a-992f-f16152e07b3e)
