@@ -1,14 +1,19 @@
 # Day 3
 
 ## Lab - Installing ELK stack in Windows 11 Pro 64-bit VM on Azure cloud
-Launch Elastic search
+#### Launch Elastic search
+One
 ![image](https://github.com/user-attachments/assets/4365bb19-93c2-4496-9a78-368d8acbd984)
+Two
 ![image](https://github.com/user-attachments/assets/f45f3427-153b-4502-b348-03027ccf8396)
+Three
 ![image](https://github.com/user-attachments/assets/f25e4eba-59e8-446f-9bb3-7255031c4195)
+Four
 ![image](https://github.com/user-attachments/assets/84becbdc-aa2a-42a3-9bd3-217341cae8e4)
+Five
 ![image](https://github.com/user-attachments/assets/866bdc08-2cfe-4751-8507-09288ba06aee)
 
-Launch Kibana and connect with Elasticsearch cluster
+#### Launch Kibana and connect with Elasticsearch cluster
 ![image](https://github.com/user-attachments/assets/1dcaef2a-0408-47a3-9454-918c337245c3)
 ![image](https://github.com/user-attachments/assets/912b1e07-fa69-4138-8a20-1154993f9b4c)
 ![image](https://github.com/user-attachments/assets/5ed40b68-5dd5-42e9-802f-65e1813cdffb)
