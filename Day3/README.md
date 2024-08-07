@@ -199,3 +199,11 @@ Sign in
 ![image](https://github.com/user-attachments/assets/a9f818ba-acdc-42f2-b8c0-202e36b2bc8d)
 You can check if you are able to access the prometheus metrics at url "http://localhost:8080/prometheus"
 ![image](https://github.com/user-attachments/assets/e357f4af-0aeb-4231-bce3-861a41063ea8)
+
+
+We need to configure prometheus to collect metrics from Jenkins url http://localhost:8080/prometheus
+Copy the prometheus.yml from prometheus container as shown below
+```
+docker cp prometheus:/opt/bitnami/prometheus/conf/prometheus.yml .
+```
+![image](https://github.com/user-attachments/assets/ddef7dcc-7391-44ee-9383-2d580fc25d72)
