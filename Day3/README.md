@@ -128,3 +128,7 @@ Click "Import" and select "prometheus" datasource
 
 Let's download jenkins.war from jenkins.io/download url
 ![image](https://github.com/user-attachments/assets/86c7b1df-991d-47f5-a565-af9c0bc7f690)
+
+We need to download Generic Java Package on the left side (LTS)
+![image](https://github.com/user-attachments/assets/fc841344-e502-44e0-abf0-2bce72e3da37)
+![image](https://github.com/user-attachments/assets/c4efdcc8-d986-4930-9f21-853c75c51638)
