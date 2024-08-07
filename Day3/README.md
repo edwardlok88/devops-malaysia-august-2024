@@ -57,3 +57,14 @@ http://172.17.0.2:9090
 
 Expected output
 ![image](https://github.com/user-attachments/assets/df80f7cc-43ed-4024-b21c-c61e9a3a32bb)
+
+Deploying grafana as a Docker container
+```
+docker ps
+docker run -d --name grafana --hostname grafana bitnami/grafana:latest
+docker ps
+docker logs grafana
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/de718f29-cc09-464a-9ae8-a24481033a18)
