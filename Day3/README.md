@@ -91,3 +91,4 @@ Expected output
 
 Change the grafana password to "Admin@123"
 ![image](https://github.com/user-attachments/assets/53b64a96-3d89-4772-8c50-f2e1f02d261b)
+![image](https://github.com/user-attachments/assets/a39f7836-3e42-435b-8257-699b1e6c99c1)
