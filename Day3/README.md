@@ -78,7 +78,16 @@ Accessing the grafana dashboard from your web browser
 ```
 http://172.17.0.3:3000
 ```
+Default grafana login credentials
+<pre>
+username - admin
+password - admin
+</pre>
 
 Expected output
 ![image](https://github.com/user-attachments/assets/0486fcc4-aab3-4d94-93de-193b600f0b3d)
 ![image](https://github.com/user-attachments/assets/5d141d12-f44e-48d3-b709-2e3b4ed42d50)
+![image](https://github.com/user-attachments/assets/832f3117-cb59-4ac3-b3e6-cb72be18f465)
+
+Change the grafana password to "Admin@123"
+![image](https://github.com/user-attachments/assets/53b64a96-3d89-4772-8c50-f2e1f02d261b)
