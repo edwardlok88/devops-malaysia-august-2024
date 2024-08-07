@@ -68,3 +68,17 @@ docker logs grafana
 
 Expected output
 ![image](https://github.com/user-attachments/assets/de718f29-cc09-464a-9ae8-a24481033a18)
+
+Find the IP address of grafana container
+```
+docker inspect -f {{.NetworkSettings.IPAddress}} grafana
+```
+
+Accessing the grafana dashboard from your web browser
+```
+http://172.17.0.3:3000
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/0486fcc4-aab3-4d94-93de-193b600f0b3d)
+![image](https://github.com/user-attachments/assets/5d141d12-f44e-48d3-b709-2e3b4ed42d50)
