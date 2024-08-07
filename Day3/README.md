@@ -177,3 +177,25 @@ Click "Save and Finish"
 ![image](https://github.com/user-attachments/assets/cd25555d-be88-49bd-90a6-7bfb6108f726)
 Click "Start using Jenkins"
 ![image](https://github.com/user-attachments/assets/1afb669c-e198-4bdf-89c4-7256016e816b)
+In your Jenkins Dashboard, click on "Manage Jenkins"
+![image](https://github.com/user-attachments/assets/610eae2a-75f2-46b2-ab89-0cee633d9d8b)
+Click "Plugins"
+![image](https://github.com/user-attachments/assets/7a011021-1a9d-4910-8bf4-1847399258c7)
+Click "Available plugins"
+![image](https://github.com/user-attachments/assets/0fe823aa-77bd-4a6f-a1d7-6d226fe3afbd)
+Search for "Prometheus"
+![image](https://github.com/user-attachments/assets/2ab0f525-ac5c-4771-a065-bd96a976acb1)
+Select "Prometheus metrics"
+![image](https://github.com/user-attachments/assets/25445490-b0e6-4883-bc12-c1d48293b8ce)
+![image](https://github.com/user-attachments/assets/350ce556-5104-4814-8b68-19eeae5a075c)
+Click "Install" 
+![image](https://github.com/user-attachments/assets/609c1d50-ae13-4e6a-a7f0-3177bfbb2781)
+Select "Restart Jenkins when installation is complete and no jobs are running"
+![image](https://github.com/user-attachments/assets/5ebb1bde-e41e-433a-a0a8-81e8d83b6f24)
+If it takes too long, try to manually refresh the page
+![image](https://github.com/user-attachments/assets/648a1eed-74ec-45ec-808c-5454c6ab26d0)
+![image](https://github.com/user-attachments/assets/3b7d9b32-3082-46d5-acf0-dca55f42a424)
+Sign in
+![image](https://github.com/user-attachments/assets/a9f818ba-acdc-42f2-b8c0-202e36b2bc8d)
+You can check if you are able to access the prometheus metrics at url "http://localhost:8080/prometheus"
+![image](https://github.com/user-attachments/assets/e357f4af-0aeb-4231-bce3-861a41063ea8)
