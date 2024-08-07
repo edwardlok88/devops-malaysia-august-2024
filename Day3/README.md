@@ -111,3 +111,10 @@ Select Prometheus
 ![image](https://github.com/user-attachments/assets/bb96cea9-9d55-4add-a3eb-0cf2eef651b7)
 Click Save & Test
 ![image](https://github.com/user-attachments/assets/1f2468da-998d-491e-a726-89c6908a56df)
+
+Click on Dashboards
+![image](https://github.com/user-attachments/assets/3711d7f3-65c2-4ca8-9ce6-4bad6ff9d544)
+Click on New to see the import option
+![image](https://github.com/user-attachments/assets/12ac50d6-0ad5-4822-b13d-136b3c0d3af0)
+Click on import
+![image](https://github.com/user-attachments/assets/b33a565a-bdf3-4a76-8bd6-d53c6c757933)
