@@ -205,5 +205,6 @@ We need to configure prometheus to collect metrics from Jenkins url http://local
 Copy the prometheus.yml from prometheus container as shown below
 ```
 docker cp prometheus:/opt/bitnami/prometheus/conf/prometheus.yml .
+ls
 ```
-![image](https://github.com/user-attachments/assets/ddef7dcc-7391-44ee-9383-2d580fc25d72)
+![image](https://github.com/user-attachments/assets/277c1ffd-ed53-45eb-bfb4-f1a4b290368b)
