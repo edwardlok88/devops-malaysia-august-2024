@@ -99,3 +99,11 @@ Currently, prometheus is collecting performance metrics from only Prometheus. Yo
 
 You can access the prometheus metrics at url http://172.17.0.2:9090/metrics
 ![image](https://github.com/user-attachments/assets/b64c4670-8605-411f-885c-d6c393843afa)
+
+Integrating Prometheus with Grafana
+![image](https://github.com/user-attachments/assets/2eeda054-bee0-45a2-9332-e9d5b3c24e79)
+
+Add Datasource
+![image](https://github.com/user-attachments/assets/c098b4d8-638a-4dcb-90fa-d62964de4be0)
+Select Prometheus
+![Uploading image.png…]()
