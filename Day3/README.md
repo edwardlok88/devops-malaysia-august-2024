@@ -154,3 +154,11 @@ Expected output
 Let's copy the initial admin password from web browser as shown below
 ![image](https://github.com/user-attachments/assets/53383580-788f-4fec-a3e8-902058ca348a)
 ![image](https://github.com/user-attachments/assets/692c1c4d-7ed4-4333-a5df-d6ce4168999b)
+![image](https://github.com/user-attachments/assets/8c20237e-b7e9-4bc0-91b4-f5cffd54c726)
+![image](https://github.com/user-attachments/assets/f3e222af-6aa5-4bcc-a013-8af7751ae508)
+![image](https://github.com/user-attachments/assets/bc77ac13-f1e1-4331-8e19-a34d63a4f114)
+Click continue
+![image](https://github.com/user-attachments/assets/ff3bd6d5-9e31-40e2-8e1e-eec019a7cc60)
+Click "Install suggested plugins"
+![image](https://github.com/user-attachments/assets/24a7b089-580e-4aad-9120-0500937a9d5a)
+![Uploading image.png…]()
