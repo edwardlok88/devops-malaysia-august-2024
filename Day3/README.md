@@ -227,3 +227,13 @@ docker restart prometheus
 docker ps
 ```
 ![image](https://github.com/user-attachments/assets/98481e44-1216-4532-a4d1-ed25b822ceb5)
+
+Let's update the prometheus.yml as shown below
+![image](https://github.com/user-attachments/assets/5481a4ae-ac35-49cc-b4dc-f7a5e22c9b89)
+Let's copy this updated prometheus.yml to container
+```
+docker cp prometheus.yml prometheus:/opt/bitnami/prometheus/conf/prometheus.yml
+docker restart prometheus
+docker ps
+```
+![image](https://github.com/user-attachments/assets/51ef45ff-0784-4b0d-a062-18282d773077)
