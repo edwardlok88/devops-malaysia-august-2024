@@ -126,3 +126,5 @@ Click "Import" and select "prometheus" datasource
 ![image](https://github.com/user-attachments/assets/a542860e-37cf-4757-b0a4-0864bcd8225b)
 ![image](https://github.com/user-attachments/assets/c74ac9f4-2844-4b58-a11e-71b9bc56e92e)
 
+Let's download jenkins.war from jenkins.io/download url
+![image](https://github.com/user-attachments/assets/86c7b1df-991d-47f5-a565-af9c0bc7f690)
