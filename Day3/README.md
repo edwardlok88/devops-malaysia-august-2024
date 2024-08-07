@@ -92,3 +92,10 @@ Expected output
 Change the grafana password to "Admin@123"
 ![image](https://github.com/user-attachments/assets/53b64a96-3d89-4772-8c50-f2e1f02d261b)
 ![image](https://github.com/user-attachments/assets/a39f7836-3e42-435b-8257-699b1e6c99c1)
+
+
+Currently, prometheus is collecting performance metrics from only Prometheus. You may navigate to Status => Target
+![image](https://github.com/user-attachments/assets/2a404118-710a-45f7-8068-bb274cc45467)
+
+You can access the prometheus metrics at url http://172.17.0.2:9090/metrics
+![image](https://github.com/user-attachments/assets/b64c4670-8605-411f-885c-d6c393843afa)
