@@ -120,3 +120,9 @@ Click on import
 ![image](https://github.com/user-attachments/assets/b33a565a-bdf3-4a76-8bd6-d53c6c757933)
 Type "9964"
 ![image](https://github.com/user-attachments/assets/983cd2e2-22b2-4af9-8947-6f404ef28f36)
+Click "Load"
+![image](https://github.com/user-attachments/assets/6876cc0a-8175-4117-805d-7dd64ac976f0)
+Click "Import" and select "prometheus" datasource
+![image](https://github.com/user-attachments/assets/a542860e-37cf-4757-b0a4-0864bcd8225b)
+![image](https://github.com/user-attachments/assets/c74ac9f4-2844-4b58-a11e-71b9bc56e92e)
+
