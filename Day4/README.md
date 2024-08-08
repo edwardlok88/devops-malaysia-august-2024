@@ -506,3 +506,7 @@ Right click the ThreadGroup and Add a Listener named "View Results Tree" as show
 ![image](https://github.com/user-attachments/assets/d63f89f2-849c-4fe2-a011-b8ab82b57b65)
 ![image](https://github.com/user-attachments/assets/85c3bf9f-b878-481f-a8a2-003a1db4d222)
 
+Save Test Plan as
+![image](https://github.com/user-attachments/assets/e761b7a5-ce38-4c48-aeea-302ba640caf2)
+![image](https://github.com/user-attachments/assets/586eb4ab-9f44-4b89-aa27-4f40370e962d)
+Click Save
