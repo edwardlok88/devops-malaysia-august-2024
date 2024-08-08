@@ -486,3 +486,11 @@ Expected output
 ![image](https://github.com/user-attachments/assets/0107f94d-f844-451e-b999-ecb1b01f4b2d)
 ![image](https://github.com/user-attachments/assets/203b733b-59be-40a5-b856-28dcb471be3b)
 ![image](https://github.com/user-attachments/assets/c708dae8-83f9-48ac-a06f-0c415a80c00c)
+
+
+## Lab - Create your first test plan in JMeter test application
+We will try access the OrangeHRMS applicaiton at url https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+![image](https://github.com/user-attachments/assets/c5c6fcf8-2de5-4ce5-af85-98e7ca7ca624)
+Add ThreadGroup
+![image](https://github.com/user-attachments/assets/2b8961a0-d3bc-4c1d-a69b-b46000cb1f68)
