@@ -475,3 +475,12 @@ https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.zip
 <pre>
 https://jmeter.apache.org/usermanual/index.html  
 </pre>
+
+## Lab - Launching JMeter Testing application
+```
+cd ~/apache-jmeter-5.6.3/bin
+java -jar ./ApacheJMeter.jar
+```
+
+Expected output
+![image](https://github.com/user-attachments/assets/0107f94d-f844-451e-b999-ecb1b01f4b2d)
