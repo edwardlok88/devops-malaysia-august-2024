@@ -70,3 +70,15 @@
 - Cucumber BDD framework also supports a new framework called cucumber-performance ( performance library ) 
 - Hence, it is possible to perform performance testing products developed in most popular programming languages with Cucumber + Cucumber performance library/framework 
 </pre>
+
+## Lab - Installing JMeter in Linux
+```
+cd ~
+wget https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz
+tar xvfz apache-jmeter-5.6.3.tgz
+cd apache-jmeter-5.6.3/bin
+```
+
+## Info - Installing JMeter in Windows/Mac
+```
+```
