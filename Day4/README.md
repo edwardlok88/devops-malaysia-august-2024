@@ -499,4 +499,5 @@ Update the ThreadGroup as shown below
 ![image](https://github.com/user-attachments/assets/916fd865-68c6-4e4c-9158-fbe86a4afccd)
 Right click on the ThreadGroup and add a HttpRequest under sampler
 ![image](https://github.com/user-attachments/assets/e8ded43e-195d-412e-a8da-917b6a4a8be6)
+![image](https://github.com/user-attachments/assets/3cba6d77-cbe3-4e38-b009-4f1acfa00335)
 
