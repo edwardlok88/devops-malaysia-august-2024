@@ -500,4 +500,5 @@ Update the ThreadGroup as shown below
 Right click on the ThreadGroup and add a HttpRequest under sampler
 ![image](https://github.com/user-attachments/assets/e8ded43e-195d-412e-a8da-917b6a4a8be6)
 ![image](https://github.com/user-attachments/assets/3cba6d77-cbe3-4e38-b009-4f1acfa00335)
+![image](https://github.com/user-attachments/assets/fd268a2d-3b20-4563-a207-b1a04870f824)
 
