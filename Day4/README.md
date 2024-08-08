@@ -522,3 +522,8 @@ You can view the Test execution output under the View Results Tree
 ![image](https://github.com/user-attachments/assets/d177fae9-e895-4835-a07a-6d9ddc4613b9)
 ![image](https://github.com/user-attachments/assets/1629190a-df70-4031-9cae-dd8706608b69)
 ![image](https://github.com/user-attachments/assets/581cfe88-d72f-4269-a74d-734d7dd73189)
+
+## Info - Adding JMeter Root Certificate in Google chrome web browser
+<pre>
+https://docs.vmware.com/en/VMware-Adapter-for-SAP-Landscape-Management/2.1.0/Installation-and-Administration-Guide-for-VLA-Administrators/GUID-D60F08AD-6E54-4959-A272-458D08B8B038.html	
+</pre>
