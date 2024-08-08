@@ -511,3 +511,14 @@ File Menu --> Save Test Plan as
 ![image](https://github.com/user-attachments/assets/586eb4ab-9f44-4b89-aa27-4f40370e962d)
 Click Save
 ![image](https://github.com/user-attachments/assets/b6940345-aa45-4514-980f-871d7c4aee55)
+
+
+In the JMeter Test application, click on the Green start button to run the test plan
+![image](https://github.com/user-attachments/assets/c8d230c4-16e8-446e-9134-3b63af18b0f9)
+
+You can view the Test execution output under the View Results Tree
+![image](https://github.com/user-attachments/assets/4c1d43df-603c-44b3-9056-91bb144d5472)
+![image](https://github.com/user-attachments/assets/8ffbc99e-a9a5-4f8b-bac9-391d450278d0)
+![image](https://github.com/user-attachments/assets/d177fae9-e895-4835-a07a-6d9ddc4613b9)
+![image](https://github.com/user-attachments/assets/1629190a-df70-4031-9cae-dd8706608b69)
+![image](https://github.com/user-attachments/assets/581cfe88-d72f-4269-a74d-734d7dd73189)
