@@ -484,3 +484,5 @@ java -jar ./ApacheJMeter.jar
 
 Expected output
 ![image](https://github.com/user-attachments/assets/0107f94d-f844-451e-b999-ecb1b01f4b2d)
+![image](https://github.com/user-attachments/assets/203b733b-59be-40a5-b856-28dcb471be3b)
+![image](https://github.com/user-attachments/assets/c708dae8-83f9-48ac-a06f-0c415a80c00c)
