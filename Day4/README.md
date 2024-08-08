@@ -84,3 +84,8 @@ You can download, unzip and start using JMeter as it is in Linux, Mac OS-X or Wi
 ```
 https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.zip
 ```
+
+## Info - Official Jmeteral documentation for further learning
+<pre>
+https://jmeter.apache.org/usermanual/index.html  
+</pre>
