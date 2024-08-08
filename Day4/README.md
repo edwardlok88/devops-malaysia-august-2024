@@ -491,8 +491,12 @@ Expected output
 ## Lab - Create your first test plan in JMeter test application
 We will try access the OrangeHRMS applicaiton at url https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
+In JMeter, right click the Test Plan
 ![image](https://github.com/user-attachments/assets/c5c6fcf8-2de5-4ce5-af85-98e7ca7ca624)
 Add ThreadGroup
 ![image](https://github.com/user-attachments/assets/2b8961a0-d3bc-4c1d-a69b-b46000cb1f68)
 Update the ThreadGroup as shown below
 ![image](https://github.com/user-attachments/assets/916fd865-68c6-4e4c-9158-fbe86a4afccd)
+Right click on the ThreadGroup and add a HttpRequest under sampler
+![image](https://github.com/user-attachments/assets/e8ded43e-195d-412e-a8da-917b6a4a8be6)
+
