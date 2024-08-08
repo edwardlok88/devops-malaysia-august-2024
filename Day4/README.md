@@ -80,5 +80,7 @@ cd apache-jmeter-5.6.3/bin
 ```
 
 ## Info - Installing JMeter in Windows/Mac
+You can download, unzip and start using JMeter as it is in Linux, Mac OS-X or Windows.  The JMeter testing tool comes as an java jar file which works on any OS, hence the installation procedure is same for all OS.
 ```
+https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.6.3.zip
 ```
