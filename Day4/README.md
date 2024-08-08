@@ -502,3 +502,7 @@ Right click on the ThreadGroup and add a HttpRequest under sampler
 ![image](https://github.com/user-attachments/assets/3cba6d77-cbe3-4e38-b009-4f1acfa00335)
 ![image](https://github.com/user-attachments/assets/fd268a2d-3b20-4563-a207-b1a04870f824)
 
+Right click the ThreadGroup and Add a Listener named "View Results Tree" as shown below
+![image](https://github.com/user-attachments/assets/d63f89f2-849c-4fe2-a011-b8ab82b57b65)
+![image](https://github.com/user-attachments/assets/85c3bf9f-b878-481f-a8a2-003a1db4d222)
+
