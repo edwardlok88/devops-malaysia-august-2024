@@ -510,3 +510,4 @@ File Menu --> Save Test Plan as
 ![image](https://github.com/user-attachments/assets/e761b7a5-ce38-4c48-aeea-302ba640caf2)
 ![image](https://github.com/user-attachments/assets/586eb4ab-9f44-4b89-aa27-4f40370e962d)
 Click Save
+![image](https://github.com/user-attachments/assets/b6940345-aa45-4514-980f-871d7c4aee55)
